@@ -1,0 +1,168 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+    
+}
+
+.about{
+height: 250vh;
+background-image: url(./pics/cover\ pic.jpg);
+background-size:cover;
+background-position: center center;
+}
+
+.about .overlay{
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.425);
+    padding: 4%;
+}
+.about .overlay h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font: bolder;
+    color:white;
+    margin-top: 0px;
+} 
+.about .overlay p1{
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: bolder;
+    color:rgb(204, 204, 156);
+}
+.navigation  {
+    display: flex;
+    color: #000;
+    
+}
+
+.navigation li{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 10px;
+    color: gray;
+}
+.navigation a{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 10px;
+    color: gray;
+}
+.navcon{
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+    background-color:rgb(252, 252, 222);
+}
+
+.navcon h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;    
+    margin-top: 5px;
+    color: gray;
+
+    
+}
+.hero{
+    /* height: 90vh; */
+    background-color: rgb(235, 235, 152);
+    background-image: url(./pics/teaching\ 2.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.hero .overlay{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.192);
+    padding: 70px;
+}
+.hero .overlay h1{
+    text-align: center;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(255, 255, 255);
+}
+.footer{
+    background-color:rgb(252, 252, 222);
+    height: 5%;
+    padding: 2%;
+    color:gray;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footerright{
+    color: brown;
+}
+.footer .footerright h3{
+    color: gray;
+}
+.skills{
+    height:auto;
+    background-color: rgb(245, 245, 170);
+}
+.portfolio{
+    height: auto;
+    background-color: rgb(252, 252, 222);
+
+}
+.portfolio img{
+    width: 80%;
+
+}
+.portfolio .teaching{
+    display: flex;
+    padding: 4%;
+}
+.portfolio .teaching .teachingright{
+    width: 50%;
+
+}
+.contact{
+    padding: 35px;
+    background-color: beige;
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.images {
+    flex: 1;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px; /* Add some space between the images */
+}
+
+.text {
+    font-size:xx-large;
+    font-family:Arial, Helvetica, sans-serif;
+    color: brown;
+    flex: 1;
+    padding: 20px; /* Add padding for spacing between text and images */
+}
+.portfolio .teachingleft h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: brown;
+}
+.portfolio .teachingleft p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:18px;
+    line-height: 1.5;
+    color: rgb(77, 74, 74);
+}
+.skills .skillset {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: black;
+}
+.skillSection {
+    padding: 4%;
+    background-color: beige;
+    color: rgb(77, 75, 75);
+
+}
+
